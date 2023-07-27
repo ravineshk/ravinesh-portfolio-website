@@ -1,0 +1,366 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    position: sticky;
+    top: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background: rgb(18, 18, 62);
+}
+nav div a{
+    text-decoration: none;
+    color: white;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(153, 153, 226);
+    font-size: 1.1rem;
+
+}
+main hr{
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 10px 100px;
+}
+.left{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.left:hover{
+    font-size: 1.55rem;
+}
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 145px 0;
+}
+.firstSection > div{
+    width: 30%;
+}
+.leftSection{
+    font-size: 3rem;
+}
+.rightSection img{
+    width: 80%;
+    
+}
+.purple{
+    color: rgb(170, 107, 228);
+}
+.purple1{
+    color: rgb(180, 131, 225);
+    font-size: 1.2rem;
+}
+#element{
+    color: rgb(170, 107, 228);
+}
+.secondSection{
+    max-width: 80vw;
+    margin: auto;
+    height: 50vh;
+}
+.secondSection h1{
+    font-size: 2rem;
+    padding: 60px;
+}
+.work{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0;
+    height: 80px;
+    background: rgb(0, 0, 33);
+}
+.work a{
+    text-decoration: none;
+}
+.work a:hover{
+    font-size: 1.9rem;
+    cursor: alias;
+}
+.work div{
+    font-size: 1.35rem;
+    color: #9c97f1;
+}
+.work div h4{
+    margin: 10px 0;
+    color: white;
+}
+.work div h5{
+    color: white;
+    font-weight: 200;
+}
+.work div h8 li{
+    padding-top: 10px;
+    color: #d4d4f9;
+    font-weight: 200;
+    list-style: circle;
+}
+.work div h8 li a{
+
+    color: #d4d4f9;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+footer hr{
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 0 31%;
+}
+.linkedin img{
+    margin-top: 20px;
+    padding-left: 47.25%;
+    height: 40px;
+    width: 40px;
+}
+.github img{
+    margin-top: 20px;
+    height: 40px;
+    width: 40px;
+    margin-left: 20px;
+}
+.about{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 12px;
+    text-align: start;
+    font-size: 5rem;
+}
+.content{
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+.contentend{
+    margin-top: 30px;
+    margin-bottom: 70px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+
+.contactform {
+    display: flex;
+    justify-content: space-around;
+    padding: 140px ;
+    
+}
+
+.contactform  h1{
+   
+    text-align: left;
+}
+
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input{
+   
+   border-radius: 5px;
+   margin: 12px 0 0 0 ;
+   padding: 5px;
+}
+
+.contactform form {
+  margin: 0 40px;
+}
+
+#emailHelp{
+    font-size: 11px;
+    color: rgb(167, 167, 231);
+    margin: 0 5px;
+    padding:3px 0 0 0;
+}
+
+#form-check {
+    flex-direction: row;
+}
+
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+   
+}
+
+
+.button{
+    margin-top: 2.2em;
+    font-size: 16px;
+}
+
+.btn{
+    padding: 10px;
+    height: 50px;
+    width: 580px;
+    border-radius: 5px;
+    color: white;
+    border-style: none;
+    border-color: #9c97f1;
+    background-color: #9c97f1;
+    font-weight: bolder;
+    font-size: 14px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.btn:hover{
+    border-color: rgb(52, 51, 51);
+    background-color: rgb(52, 51, 51);
+
+}
+.contactform  h1 div{
+   margin-top: 20px;
+   margin-left: 5px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 15px;
+}
+.contacticon img{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    height: 40px;
+    width: 40px;
+}
+.contacticon div{
+    display: flex;
+    text-align: right;
+    margin-top: 60px;
+    
+}
+.certificate1{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    text-align: start;
+    font-size: 1.5rem;
+}
+.certificate1 h4{
+    color: white;
+}
+.certificate{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: start;
+    font-size: 1.5rem;
+}
+.certificate h4{
+    color: white;
+}
+.certificate2{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    text-align: start;
+    font-size: 1.5rem;
+}
+.certificate2 h4{
+    color: white;
+}
+.certificate a{
+    text-decoration: none;
+}
+.certificate a:hover{
+    font-size: 1.9rem;
+    cursor: alias;
+}
+.certificate1 a{
+    text-decoration: none;
+}
+.certificate1 a:hover{
+    font-size: 1.9rem;
+    cursor: alias;
+}
+.certificate2 a{
+    text-decoration: none;
+}
+.certificate2 a:hover{
+    font-size: 1.9rem;
+    cursor: alias;
+}
+.firstprojectSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 140px 50px;
+}
+.firstprojectSection > div{
+    width: 30%;
+}
+.leftprojectSection{
+    font-size: 2.25rem;
+}
+.rightprojectSection img{
+    width: 100%;
+    
+}
+.leftprojectSection a{
+    text-decoration: none;
+    color: #9c97f1;
+}
+.leftprojectSection a:hover{
+    font-size: 2.8rem;
+    color: #cae8f2;
+}
+.btn1{
+    margin-top: 75px;
+    height: 50px;
+    width: 500px;
+    border-radius: 5px;
+    color: white;
+    border-style: none;
+    border-color: #9c97f1;
+    background-color: #9c97f1;
+    font-weight: 900;
+    font-size: 25px;
+    cursor: pointer;
+}
+.btn1:hover{
+    border-color: rgb(52, 51, 51);
+    background-color: rgb(52, 51, 51);
+
+}
+.btn1 a{
+    text-decoration: none;
+    color: white;
+}
