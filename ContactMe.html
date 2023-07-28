@@ -41,44 +41,37 @@
 
                 </div>
             </h1>
-            <form action="https://formsubmit.co/ravineshkumar.1402@gmail.com" method="POST">
+            <form name="submit-to-google-sheet">
 
                 <div class="mb-3">
-                    <label for="clientemail" class="form-label">Name</label>
-                    <input type="text" name="Name" placeholder="Name" class="form-control" id="clientemail"
-                        aria-describedby="emailHelp">
+                    <label>Name</label>
+                    <input type="text" name="Name" placeholder="Your Full Name" class="form-control" id="clientemail"
+                        aria-describedby="emailHelp" required>
                 </div>
 
                 <div class="mb-3">
-                    <label for="clientemail" class="form-label">Email address</label>
-                    <input type="email" name="email" placeholder="Email Address" class="form-control" id="clientemail"
-                        aria-describedby="emailHelp">
+                    <label>Email address</label>
+                    <input type="email" name="Email" placeholder="Email Address" class="form-control" id="clientemail"
+                        aria-describedby="emailHelp" required>
                     <div id="emailHelp" class="form-text">We'll never share your email & phone with anyone else.</div>
                 </div>
 
                 <div class="mb-3">
-                    <label for="clientphone" class="form-label">Phone</label>
-                    <input type="Phone" name="Phone" placeholder="Phone Number" class="form-control" id="clientphone">
+                    <label>Phone</label>
+                    <input type="Phone" name="PhoneNo" placeholder="Phone Number" class="form-control" id="clientphone" required>
                 </div>
 
                 <div class="mb-3">
-                    <label for="clientemail" class="form-label">Enquiry</label>
+                    <label>Enquiry</label>
                     <input type="Enquiry" name="Enquiry" placeholder="Write you Enquiry" class="form-control"
                         id="clientemail" aria-describedby="emailHelp">
                 </div>
 
-                <div class="mb-3" id="form-check">
-                    <input type="checkbox" class="form-check-input" id="isclient">
-                    <label class="form-check-label" for="isclient">I want you to work on a project with me.</label>
-                </div>
-
-                <input type="hidden" name="_template" value="table">
-                <input type="hidden" name="_captcha" value="false">
-
-                <input type="hidden" name="_template" value="table">
                 <button type="submit" class="btn btn-sm">Submit Now</button>
+                <span id="msg"></span>
 
             </form>
+            
         </div>
         </div>
 
@@ -94,6 +87,24 @@
             <div class="footer">Copyright &copy ravineshkumar.me 2023 | Designed and Developed by Ravinesh Kumar</div>
         </footer>
     </main>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzXnGVc1LHqaJ7urQBniNGFgsizPSGuwfqCgPq0LnlkdaSDxm38W6SR1Iu020GrQdq9/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully !!!!"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },3000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
 </body>
 
 </html>

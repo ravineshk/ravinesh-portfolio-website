@@ -195,6 +195,10 @@ footer hr{
    border-radius: 5px;
    margin: 12px 0 0 0 ;
    padding: 5px;
+   font-family: Arial;
+   color: black;
+   font-size: 15px;
+   font-weight: 400;
 }
 
 .contactform form {
@@ -235,13 +239,20 @@ footer hr{
     background-color: #9c97f1;
     font-weight: bolder;
     font-size: 14px;
-    margin-top: 25px;
+    margin-top: 30px;
     cursor: pointer;
 }
 .btn:hover{
     border-color: rgb(52, 51, 51);
     background-color: rgb(52, 51, 51);
 
+}
+
+#msg{
+    color: #5df311;
+    margin-top: 20px;
+    margin-left: 10px;
+    display: block;
 }
 .contactform  h1 div{
    margin-top: 20px;
