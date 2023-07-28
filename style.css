@@ -98,8 +98,10 @@ main hr{
 }
 .work a{
     text-decoration: none;
+    color: white;
 }
 .work a:hover{
+    color: #ababab;
     font-size: 1.9rem;
     cursor: alias;
 }
@@ -109,7 +111,6 @@ main hr{
 }
 .work div h4{
     margin: 10px 0;
-    color: white;
 }
 .work div h5{
     color: white;
@@ -282,52 +283,52 @@ footer hr{
     padding-top: 50px;
     padding-bottom: 10px;
     text-align: start;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
-.certificate1 h4{
-    color: white;
-}
+
 .certificate{
     display: flex;
     justify-content: space-around;
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: start;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
-.certificate h4{
-    color: white;
-}
+
 .certificate2{
     display: flex;
     justify-content: space-around;
     padding-top: 10px;
     padding-bottom: 50px;
     text-align: start;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
-.certificate2 h4{
-    color: white;
-}
+
 .certificate a{
     text-decoration: none;
+    color: azure;
 }
 .certificate a:hover{
-    font-size: 1.9rem;
+    color: #9c97f1;
+    font-size: 1.4rem;
     cursor: alias;
 }
 .certificate1 a{
     text-decoration: none;
+    color: azure;
 }
 .certificate1 a:hover{
-    font-size: 1.9rem;
+    color: #9c97f1;
+    font-size: 1.4rem;
     cursor: alias;
 }
 .certificate2 a{
     text-decoration: none;
+    color: azure;
 }
 .certificate2 a:hover{
-    font-size: 1.9rem;
+    color: #9c97f1;
+    font-size: 1.4rem;
     cursor: alias;
 }
 .firstprojectSection{
