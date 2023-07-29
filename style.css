@@ -653,29 +653,31 @@ nav ul li a:hover {
 @media only screen and (max-width: 836px) {
 
     .firstprojectSection {
-        display: flex;
-        justify-content: left;
-        flex-flow: column;
-        margin-left: 0px;
+        display: block;
+        margin-top: 100px;
     }
 
     .leftprojectSection {
         font-size: 1.5rem;
+        padding: 0 60px;
     }
     .leftprojectSection h7{
         display: flex;
-        width: 150%;
+        width: 250%;
         font-size: 1.5rem;
+        
 
     }
     
     .rightprojectSection img {
-        width: 150%;
+        width: 250%;
+        padding: 0 60px;
     
     }
     
     .leftprojectSection a:hover {
         font-size: 1.8rem;
+        
     }
 
 }
@@ -693,29 +695,31 @@ nav ul li a:hover {
         font-size: 3.5rem;
     }
     .firstprojectSection {
-        display: flex;
-        justify-content: left;
-        flex-flow: column;
-        padding-right: 28px;
+        display: block;
+        margin-top: 80px;
     }
 
     .leftprojectSection {
-        font-size: 1rem;
+        font-size: 1.25rem;
+        padding: 0 10px;
     }
     .leftprojectSection h7{
         display: flex;
-
-        font-size: 1rem;
+        width: 250%;
+        font-size: 1.25rem;
+        
 
     }
     
     .rightprojectSection img {
-        width: 200%;
+        width: 250%;
+        padding: 0 10px;
     
     }
     
     .leftprojectSection a:hover {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
+        
     }
 }
 
