@@ -235,17 +235,14 @@ nav ul li a:hover {
 }
 
 .content {
-    margin-top: 0;
-    margin-bottom: 10px;
-    margin-left: 400px;
-    margin-right: 400px;
+    margin: 0 60px;
 }
 
 .contentend {
     margin-top: 30px;
     margin-bottom: 70px;
-    margin-left: 400px;
-    margin-right: 400px;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 
@@ -477,8 +474,8 @@ nav ul li a:hover {
     .rabout {
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
-        margin: 0 -150px;
+        justify-content: center;
+        
     }
 
 }
@@ -549,8 +546,7 @@ nav ul li a:hover {
     .rabout {
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
-        margin: 0 -250px;
+        justify-content: center;
     }
 
 }
@@ -576,8 +572,8 @@ nav ul li a:hover {
     .rabout {
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
-        margin: 0 -350px;
+        justify-content: center;
+        
     }
 
 }
@@ -777,6 +773,12 @@ nav ul li a:hover {
         font-size: 10px;
         margin: 10px 10px 10px 10px;
     }
+    .rfoot{
+        padding: 50px;
+    }
+    .certification {
+        font-size: 1rem;
+      }
 
 
 }
