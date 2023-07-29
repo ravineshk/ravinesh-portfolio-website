@@ -233,6 +233,13 @@ nav ul li a:hover {
     text-align: start;
     font-size: 5rem;
 }
+.rabout{
+    font-size: 1.2rem;
+}
+
+.rabout span{
+    font-size: 1.4rem;
+}
 
 .content {
     margin: 0 60px;
