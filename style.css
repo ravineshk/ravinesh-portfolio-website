@@ -456,7 +456,7 @@ nav ul li a:hover {
         align-items: left;
         flex-direction: column;
         flex-wrap: nowrap;
-        height: 850px;
+        height: 750px;
         margin: 0 0;
         padding: 0px 0;
         margin-bottom: -150px;
@@ -567,6 +567,7 @@ nav ul li a:hover {
         flex-wrap: nowrap;
         padding: 20px 0;
         width: 300px;
+        font-size: 18px;
 
     }
 
@@ -831,11 +832,9 @@ nav ul li a:hover {
         font-size: 10px;
         margin: 10px 10px 10px 10px;
     }
-    .rfoot{
-        padding-top: 50px;
-    }
+   
     .footer{
-        font-size: 6px;
+        font-size: 7px;
     }
     .certification {
         font-size: 1rem;
