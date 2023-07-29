@@ -819,6 +819,9 @@ nav ul li a:hover {
     .rfoot{
         padding-top: 50px;
     }
+    .footer{
+        font-size: 6px;
+    }
     .certification {
         font-size: 1rem;
       }
