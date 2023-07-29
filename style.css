@@ -573,7 +573,11 @@ nav ul li a:hover {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        font-size: 10px;
         
+    }
+    .rabout span{
+        font-size: 14px;
     }
 
 }
