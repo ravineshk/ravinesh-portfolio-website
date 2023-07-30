@@ -131,7 +131,14 @@ nav ul li a:hover {
 
 #element {
     color: rgb(170, 107, 228);
+        display: block;
+        block-size: 125px;
+    
 }
+.typed-cursor {
+    opacity: 0 !important;
+}
+
 
 .secondSection {
     max-width: 80vw;
@@ -456,7 +463,7 @@ nav ul li a:hover {
         align-items: left;
         flex-direction: column;
         flex-wrap: nowrap;
-        height: 750px;
+        height: 600px;
         margin: 0 0;
         padding: 0px 0;
         margin-bottom: -150px;
@@ -483,6 +490,9 @@ nav ul li a:hover {
         flex-direction: column;
         justify-content: center;
         
+    }
+    .rfoot{
+        padding-top: 100px;
     }
 
 }
@@ -720,8 +730,14 @@ nav ul li a:hover {
     
     .leftprojectSection a:hover {
         font-size: 1.4rem;
-        
+           
     }
+    .work a{
+        font-size: 1.1rem;
+    }
+    .work a:hover {
+  font-size: 1.05rem;
+}
 }
 
 @media only screen and (max-width: 600px) {
@@ -834,7 +850,7 @@ nav ul li a:hover {
     }
    
     .footer{
-        font-size: 6.5px;
+        font-size: 7px;
     }
     .certification {
         font-size: 1rem;
@@ -842,6 +858,13 @@ nav ul li a:hover {
       .certification a:hover {
         font-size: 1.2rem;
     }
+    .rmain{
+        margin: -50px 0;
+    }
+    .firstSection > div {
+        padding: 0px 10px;
+        font-size: 40px;
+      }
 
 
 }
