@@ -496,6 +496,11 @@ nav ul li a:hover {
     }
 
 }
+@media only screen and (max-width: 1657px) {
+    .btn1{
+        margin: 30px 0;
+      }
+}
 
 @media only screen and (max-width: 1200px) {
     .work div {
@@ -608,6 +613,9 @@ nav ul li a:hover {
     .leftprojectSection a:hover {
         font-size: 2.3rem;
     }
+    .btn1{
+        margin: 30px 0;
+      }
 
 
 }
@@ -850,7 +858,7 @@ nav ul li a:hover {
     }
    
     .footer{
-        font-size: 7px;
+        font-size: 6.5px;
     }
     .certification {
         font-size: 1rem;
@@ -864,6 +872,9 @@ nav ul li a:hover {
     .firstSection > div {
         padding: 0px 10px;
         font-size: 40px;
+      }
+      .btn1{
+        margin: 20px 0;
       }
 
 
