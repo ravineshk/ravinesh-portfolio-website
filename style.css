@@ -890,4 +890,9 @@ nav ul li a:hover {
 
 
 }
+@media only screen and (max-width: 659px){
+.rfoot {
+  padding-top: 125px;
+}
+}
 
